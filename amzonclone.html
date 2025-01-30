@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background:rgb(0,0,0,0.878);
+            display: flex;
+            gap: 30px;
+        }
+        .center-nav{
+            display: flex;
+        }
+        .center-nav input{
+            width: 700px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: 0.5px solid #ccc;
+        }
+        .location{
+            color: white;
+            width: 90px;
+        }
+        .center-nav button{
+            padding:  10px;
+            margin-top: 8px;
+            height: 42px;
+            background-color: yellow;
+        }
+        .scroll{
+            margin-top: 20px;
+           
+        }
+        .scroll select{
+            background:rgb(0,0,0,0.02);
+            color: white;
+            font-weight: bold;
+            border: none;
+        }
+        .location #ind {
+            font-weight: bolder;
+            font-size: large;
+        }
+        .sign{
+            margin-top: 20px;
+            color: white;
+           
+        }
+        .sign select{
+            background:rgba(0, 0, 0, 0.02);
+            color: white;
+            border: none;
+            font-weight: bolder;
+            font-size:medium;
+           
+        }
+        .sign p {
+            margin-bottom: 0px;
+            margin-top: -8px;
+        }
+        .return{
+            color: white;
+            width:60px;
+        }
+        #order{
+            font-weight: 900;
+        }
+        .cart{
+            margin-top: 10px;
+            color: white;
+            font-family: sans-serif;
+        }
+      .hero img {
+        width: 1500px;
+        height: 700px;
+      }
+      .image-container{
+        display: grid;
+        
+      }
+     .container1{
+        display: flex;
+        flex-direction: column;
+      margin-top: -370px;
+      margin-left: 20px;
+       
+       width: 26%;
+       height: 2270%;
+      
+       padding: 0px;
+       transition:0.3s ease-in-out ;
+      
+      
+    
+     }
+     .container1 img{
+        margin-top:20px;
+       
+       
+     }
+     .container1 h3{
+        margin-left: 20px;
+     }
+     .part1{
+        background-color: white;
+        width: 376px;
+       
+     }
+     .part2{
+        background-color: white;
+        width: 376px;
+        height: 92%;
+     }
+     .container1 a{
+        margin-left: 10px;
+        text-decoration: none;
+       
+     }
+     .image-container{
+        display: flex;
+     }
+     .container2{
+        margin-top: -386px;
+        margin-left: 20px;
+      
+     }
+     .phone{
+        display: flex;
+        gap: 5px;
+     }
+     .smartphone img{
+        width: 340px;
+        padding: 10px;
+     }
+     .container2 h3{
+        padding: 10px;
+        margin-left: 5px;
+     }
+     .container2 a{
+     margin: 10px;
+     text-decoration: none;
+     }
+     .container3{
+        margin-top: -386px;
+        margin-left: 20px;
+     }
+     .container3 img{
+        width: 350px;
+        height: 220px;
+        padding: 10px;
+        margin-bottom: -15px;
+        margin-top: 2px;
+     }
+     .container3 h3{
+        padding: 10px;
+        margin-left: 5px;
+     }
+     .container3 a{
+     margin: 10px;
+     text-decoration: none;
+     }
+     .image-container{
+        gap: 5px;
+     }
+     .container4{
+        margin-top: -386px;
+        margin-left: 20px;
+     }
+     .container4 img{
+        width: 140px;
+        margin-top: 5px;
+        padding: 10px;
+        
+     }
+     .part5{
+        background-color: white;
+        height: 50%;
+     }
+     .container4 a{
+        margin-left: 10px;
+        text-decoration: none;
+       
+     }
+     .container4 h3{
+        padding: 10px;
+        margin-left: 5px;
+     }
+     .container4{
+        height: 360px;
+     }
+     .container1:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container2:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container3:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container4:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container5:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container6:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container7:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+     .container8:hover{
+       transition: 0.3s ease-in-out;
+       scale: 1.1;
+     }
+    
+  header nav1 a{
+    color:white;
+    text-decoration: none;
+    word-spacing: 40px;
+    
+ }
+ header nav1{
+  
+    
+ }
+ .nav2{
+    background: rgb(6, 6, 61);
+    padding: 20px;
+    font-weight: 900;
+    font-size: medium;
+ }
+ 
+.image-container1{
+    display: flex;
+    gap: 16px;
+   background-color: rgb(46, 46, 252);
+   margin-top: none;
+   height: 400px;
+}
+.container5{
+   
+   background-color: white;
+   width: 400px;
+   margin-left: 18px;
+   height: 330px;
+}
+.container5 img{
+    margin-left: 130px;
+    margin-top: 20px;
+   
+}
+.container5 h3{
+    margin-left: 20px;
+}
+.container6 h3{
+    margin-left: 20px;
+}
+.container7 h3{
+    margin-left: 10px;
+}
+ .tag {
+   font-weight: bolder;
+   background-color: red;
+   width: 120px;
+   color: white;
+   padding: 1%;
+   margin-left: 240px;
+   margin-top: -300px;
+ }
+ .tag p{
+    margin-left: 10px;
+    margin-top: 1px;
+ }
+ .container6 img{
+   height: 220px;
+   margin-top: 10px;
+  padding: 10px;
+   width: 340px;
+   margin-left: 10px;
+ }
+ .container6{
+    background-color: white;
+   width: 820px;
+   margin-left: 30px;
+   height: 330px;
+ }
+ .container7{
+    background-color: white;
+   width: 820px;
+   margin-left: 10px;
+   height: 330px;
+   
+  
+ }
+ .container7 img{
+   height: 220px;
+   margin-top:10px;
+  padding: 10px;
+   width: 350px;
+   margin-left: 10px;
+ }.partA{
+    display: flex;
+  
+   margin-bottom: -60px;
+   margin-left: 10px;
+   margin-top: 20px;
+ }
+ .partB{
+    display: flex;
+    gap: 20px;
+ }
+ .container8{
+    background: white;
+
+    height: 330px;
+    margin-left: 10px;
+
+ }
+ .container8 img{
+    margin-top: 65px;
+    margin-left: 10px;
+    width: 150px;
+ }
+ .cloth{
+    width: 300px;
+ }
+ .cloth img{
+    width: 300px;
+    margin-top: 20px;
+    height: 220px;
+ }
+ .cloth h3{
+    margin-left: 10px;
+ }
+ .footer-contain{
+    display: flex;
+    gap: 100px;
+    margin-left: 140px;
+    color: white;
+   
+   
+ }
+ footer{
+    background: rgba(2, 2, 50, 0.79);
+    padding: 100px;
+ }
+ .footer-contain ul li {
+    list-style: none;
+    margin-bottom: 10px;
+ }
+    </style> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+         <img src="amzimages/amazon-logo (2).png">
+            </div>
+            <div class="location">
+                <P>Deliver to <span  id="ind">India</span></P>
+            </div>
+                <div class="center-nav">
+                <div class="search">
+                    <input type="search">
+                </div>
+<button>
+    <img src="image/search.svg">
+</button>
+                </div>
+            </div>
+            <div class="scroll">
+                <select name="EN">
+                    <option value="">EN</option>
+                  
+                </select>
+            </div>
+   <div class="sign">
+    <P>Hello,sign in</P>
+    <select name="account">
+        
+        <option value="">Account& List</span></option>
+    </select>
+   </div>
+   <div class="return">
+    <p>Return<span id="order"> & Order</span></p>
+   </div>
+   <div class="cart">
+    <h3>Cart</h3>
+   </div>
+        </nav>
+        <nav1 >
+            <div class="nav2">
+            <a href="#">All</a>
+            <a href="#">Todays's deal</a>
+            <a href="#">Costomer Service</a>
+            <a href="#">Register</a>
+            <a href="#">Gift Card</a>
+            <a href="#">Sell</a>
+        </div>
+        </nav1>
+    </header>
+    <main>
+     <div class="hero">
+        <img src="amzimages/hero-img.jpg">
+
+     </div>
+    
+     <div class="image-container">
+
+        
+        <div class="container1">
+           
+           
+            <div class="part1">
+                <h3>Gaming accessories</h3>
+        <img src="amzimages/side-img.jpg">
+       
+        <img src="amzimages/side-img1.jpg">
+            </div>
+             <div class="part2">
+        <img src="amzimages/side-img2.jpg">
+        <img src="amzimages/side-img3.jpg">
+        <a href="#">see more</a>
+             </div>
+             
+        </div>
+        <div class="container2">
+           
+           
+            <div class="part2">
+                <h3>Amazon Gadget store</h3>
+      <div class="gadget">
+        <div class="smartphone">
+            <img src="amzimages/side-img4.jpg">
+        </div>
+        <div class="phone">
+            <div class="tablet">
+<img src="amzimages/side-img5.jpg">
+            </div>
+            <div class="laptop">
+<img src="amzimages/side-img6.jpg">
+            </div>
+            <div class="tvs">
+<img src="amzimages/side-img8.jpg">
+            </div>
+          
+        </div>
+        <a href="#">see more amazon gadget</a>
+      </div>
+             
+        </div>
+     
+     </div>
+     <div class="container3">
+           
+           
+        <div class="part2">
+            <h3>Deals in PC's</h3>
+  
+    <img src="amzimages/side-img10.jpg">
+    <a href="#">see more amazon gadget</a>
+  </div>
+         
+    </div>
+ 
+ 
+    <div class="container4">
+           
+           
+        <div class="part1">
+            <h3>Refresh your Space</h3>
+    <img src="amzimages/side-img11.jpg">
+   
+    <img src="amzimages/side-img12.jpg">
+        </div>
+         <div class="part5">
+    <img src="amzimages/side-img13.jpg">
+    <img src="amzimages/side-img14.jpg">
+    <br>
+    <a href="#">see more</a>
+         </div>
+       
+    </div>
+
+     </div>
+       
+     <div class="image-container1">
+        <div class="container5">
+            <h3>Top Deal'<source></h3>
+            <img src="amzimages/gridimg8.jpg">
+            <div class="tag">
+                <P>Up to 30% off</P>
+            </div>
+        </div>
+        <div class="container6">
+            <h3>Celibrate the Women in your life </h3>
+            <img src="amzimages/gridimg10.jpg">
+        </div>
+        <div class="container7">
+            <h3>Toy's for sale</h3>
+            <img src="amzimages/gridimg9.jpg">
+        </div>
+      <div class="container8">
+<div class="cloth">
+    <h3>Player's paradise start here</h3>
+    <img src="amzimages/gameparlour.jpg">
+</div>
+      </div>
+        
+     </div>
+   
+    </main>
+    <footer>
+        <div class="footer-contain">
+        <div class="know">
+            <ul>
+                <h3>Get to know us </h3>
+                <li>  Careers</li>
+                   <li>Blog</li> 
+                   <li> About Amazon</li> 
+                   <li>Investor Relations</li>
+                    <li>Amazon Devices</li> 
+                    <li>Amazon Science</li> 
+                    
+            </ul>
+        </div>
+     <div class="money">
+        <ul>
+      <h3> Make Money with Us</h3>
+<li>Sell products on Amazon</li>
+ <li>Sell on Amazon Business</li>
+<li>Sell apps on Amazon</li>
+<li>Become an Affiliate</li>
+<li>Advertise Your Products
+<li>Self-Publish with Us</li>
+<li>Host an Amazon Hub</li>
+<li>See More Make Money with Us</li>
+        </ul>
+     </div>
+<div class="product">
+    <ul>
+        <h3>Amazon payment product</h3>
+        <li>Amazon Payment Products</li>
+       <li> Amazon Business Card</li>
+          <li> Shop with Points </li>
+          <li>  Reload Your Balance</li>
+          <li> Amazon Currency Converter </li>
+    </ul>
+</div>
+<div class="help">
+    <ul>
+        <h3>Let Us Help You</h3>
+          <li> Amazon and COVID-19</li> 
+           <li>Your Account</li> 
+           <li> Your Orders</li>
+           <li>Shipping Rates & Policies</li> 
+           <li> Returns & Replacements</li>
+           <li> Manage Your Content and Devices</li>
+           <li>Amazon Assistant</li> 
+         
+          <li> Help</li>
+    </ul>
+</div>
+        </div>
+    </footer>
+</body>
+</html>
